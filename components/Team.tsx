@@ -8,17 +8,17 @@ const team = [
   {
     name: "Usama Bin Zaheer",
     role: "WordPress Designer",
-    image: "/team1.webp",
+    image: "/Team1.webp",
   },
   {
     name: "Huzaifa Bin Zaheer",
     role: "Web Developer",
-    image: "/team2.webp",
+    image: "/Team2.webp",
   },
   {
     name: "Haris Bin Zaheer",
     role: "Video Editor",
-    image: "/team3.webp",
+    image: "/Team3.webp",
   },
 ];
 
