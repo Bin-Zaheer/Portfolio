@@ -1,8 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUpRight, Menu, X } from "lucide-react";
+import {
+  AnimatePresence,
+  motion,
+} from "framer-motion";
+import {
+  ArrowUpRight,
+  Menu,
+  X,
+} from "lucide-react";
 
 const links = [
   ["About", "#about"],
@@ -18,22 +25,33 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="nav-shell">
-        <a href="#" className="brand" onClick={() => setOpen(false)}>
+        <a
+          href="#"
+          className="brand"
+          onClick={() => setOpen(false)}
+        >
           <span className="brand-mark">BZ</span>
-          <span>BIN ZAHEER</span>
+          <span>HUZAIFA BIN ZAHEER</span>
         </a>
 
         <nav className="desktop-nav">
           {links.map(([label, href]) => (
-            <a key={href} href={href}>{label}</a>
+            <a key={href} href={href}>
+              {label}
+            </a>
           ))}
         </nav>
 
         <a className="nav-cta" href="#contact">
-          Let&apos;s Talk <ArrowUpRight size={16} />
+          Let&apos;s Talk{" "}
+          <ArrowUpRight size={16} />
         </a>
 
-        <button className="menu-btn" aria-label="Open menu" onClick={() => setOpen(!open)}>
+        <button
+          className="menu-btn"
+          aria-label="Open menu"
+          onClick={() => setOpen(!open)}
+        >
           {open ? <X /> : <Menu />}
         </button>
       </div>
@@ -58,7 +76,12 @@ export default function Header() {
                 {label}
               </motion.a>
             ))}
-            <a href="#contact" onClick={() => setOpen(false)}>Start a Project ↗</a>
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+            >
+              Start a Project ↗
+            </a>
           </motion.nav>
         )}
       </AnimatePresence>

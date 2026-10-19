@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <Header />
       <Hero />
-      <Upwork />
+      {/* <Upwork /> */}
       <About />
       <Services />
       <Projects />

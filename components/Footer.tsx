@@ -9,10 +9,13 @@ export default function Footer() {
         <div className="footer-main">
           <a href="#" className="footer-brand">
             <span className="brand-mark">BZ</span>
-            <strong>BIN ZAHEER</strong>
+            <strong>HUZAIFA BIN ZAHEER</strong>
           </a>
 
-          <p>Designing, developing and editing digital experiences with purpose.</p>
+          <p>
+            Designing, developing and editing
+            digital experiences with purpose.
+          </p>
 
           <a className="footer-top" href="#">
             Back to top <ArrowUpRight size={17} />
@@ -20,8 +23,13 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} BIN ZAHEER. All rights reserved.</span>
-          <span>Design · Development · Video</span>
+          <span>
+            © {new Date().getFullYear()} BIN
+            ZAHEER. All rights reserved.
+          </span>
+          <span>
+            Design · Development · Video
+          </span>
         </div>
       </div>
     </footer>

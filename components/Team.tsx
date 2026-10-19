@@ -6,18 +6,18 @@ import { ArrowUpRight } from "lucide-react";
 
 const team = [
   {
-    name: "Usama Bin Zaheer",
-    role: "WordPress Designer",
-    image: "/Team1.webp",
-  },
-  {
     name: "Huzaifa Bin Zaheer",
-    role: "Web Developer",
+    role: "CEO",
     image: "/Team2.webp",
   },
   {
+    name: "Usama Bin Zaheer",
+    role: "Manager",
+    image: "/Team1.webp",
+  },
+  {
     name: "Haris Bin Zaheer",
-    role: "Video Editor",
+    role: "Team Leader",
     image: "/Team3.webp",
   },
 ];
