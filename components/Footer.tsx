@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-main">
           <a href="#" className="footer-brand">
-            <span className="brand-mark">BZ</span>
+            <span className="brand-mark">HZ</span>
             <strong>HUZAIFA BIN ZAHEER</strong>
           </a>
 

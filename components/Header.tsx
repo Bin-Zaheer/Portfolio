@@ -30,7 +30,7 @@ export default function Header() {
           className="brand"
           onClick={() => setOpen(false)}
         >
-          <span className="brand-mark">BZ</span>
+          <span className="brand-mark">HZ</span>
           <span>HUZAIFA BIN ZAHEER</span>
         </a>
 

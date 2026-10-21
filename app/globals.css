@@ -851,3 +851,11 @@ h2 {
     font-size: 42px;
   }
 }
+
+@media (min-width: 1280px) {
+  .hero .hero-title {
+    max-width: 760px;
+    font-size: clamp(64px, 6.8vw, 96px);
+    line-height: 0.9;
+  }
+}
